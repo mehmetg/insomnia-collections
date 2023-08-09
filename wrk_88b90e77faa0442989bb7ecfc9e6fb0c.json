@@ -1,0 +1,89 @@
+{
+  "id": "wrk_88b90e77faa0442989bb7ecfc9e6fb0c",
+  "name": "TC",
+  "workspace": {
+    "_id": "wrk_88b90e77faa0442989bb7ecfc9e6fb0c",
+    "type": "Workspace",
+    "parentId": "proj_fddd194602ce488cbe2af3fe2dbf6d5a",
+    "modified": 1691594554669,
+    "created": 1691594554669,
+    "name": "TC",
+    "description": "",
+    "scope": "collection"
+  },
+  "meta": {
+    "_id": "wrkm_3db1dc56274445e68a19586b9f6323c4",
+    "created": 1691594554674,
+    "modified": 1691594558907,
+    "parentId": "wrk_88b90e77faa0442989bb7ecfc9e6fb0c",
+    "type": "WorkspaceMeta",
+    "activeActivity": null,
+    "activeEnvironmentId": null,
+    "activeRequestId": "req_7aff7f15e4924a3c945623d88b13e2cc"
+  },
+  "requests": [
+    {
+      "type": "request",
+      "id": "req_7aff7f15e4924a3c945623d88b13e2cc",
+      "meta": {
+        "_id": "reqm_18695ea93ce24f318f6107a8e785a908",
+        "type": "RequestMeta",
+        "parentId": "req_7aff7f15e4924a3c945623d88b13e2cc",
+        "modified": 1691594619624,
+        "created": 1691594559007,
+        "previewMode": "source",
+        "responseFilter": "",
+        "responseFilterHistory": [],
+        "activeResponseId": null,
+        "savedRequestBody": {},
+        "pinned": false,
+        "lastActive": 1691594558929,
+        "downloadPath": null,
+        "expandedAccordionKeys": {}
+      },
+      "request": {
+        "_id": "req_7aff7f15e4924a3c945623d88b13e2cc",
+        "type": "Request",
+        "parentId": "wrk_88b90e77faa0442989bb7ecfc9e6fb0c",
+        "modified": 1691596111285,
+        "created": 1691594558896,
+        "url": "www.github.com",
+        "name": "New Request",
+        "description": "",
+        "method": "GET",
+        "body": {},
+        "parameters": [],
+        "headers": [],
+        "authentication": {
+          "type": "oauth2",
+          "grantType": "authorization_code"
+        },
+        "metaSortKey": -1691594558896,
+        "isPrivate": false,
+        "settingStoreCookies": true,
+        "settingSendCookies": true,
+        "settingDisableRenderRequestBody": false,
+        "settingEncodeUrl": true,
+        "settingRebuildPath": true,
+        "settingFollowRedirects": "global"
+      }
+    }
+  ],
+  "environments": [
+    {
+      "_id": "env_3b2fb22660168d6a379d901fdbffa8be3ae41cde",
+      "type": "Environment",
+      "parentId": "wrk_88b90e77faa0442989bb7ecfc9e6fb0c",
+      "modified": 1691594554671,
+      "created": 1691594554671,
+      "name": "Base Environment",
+      "data": {},
+      "dataPropertyOrder": null,
+      "color": null,
+      "isPrivate": false,
+      "metaSortKey": 1691594554671
+    }
+  ],
+  "apiSpec": null,
+  "unitTestSuites": []
+}
